@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bank xmlns="https://checkit.clontz.org" version="0.2">
+    <title>New CheckIt Bank</title>
+    <slug>new-checkit-bank</slug>
+    <url>https://checkit.clontz.org</url>
+    <outcomes>
+        <outcome>
+            <title>Identifying Functions</title>
+            <slug>FUN1</slug>
+            <path>outcomes/FUN1</path>
+            <description>
+Identifying Functions, Relations, and 1-1 Functions
+            </description>
+        </outcome>
+        <outcome>
+            <title>Domain</title>
+            <slug>FUN2</slug>
+            <path>outcomes/FUN2</path>
+            <description>
+Determining the Domain of a Function
+            </description>
+        </outcome>
+        <outcome>
+            <title>Piecewise Functions</title>
+            <slug>FUN3</slug>
+            <path>outcomes/FUN3</path>
+            <description>
+Evaluating Piecwise Functions
+            </description>
+        </outcome>
+        <outcome>
+            <title>Combining Functions</title>
+            <slug>FUN4</slug>
+            <path>outcomes/FUN4</path>
+            <description>
+Evaluating Combinations of Functions
+            </description>
+        </outcome>
+        <outcome>
+            <title>Inverse Functions</title>
+            <slug>FUN5</slug>
+            <path>outcomes/FUN5</path>
+            <description>
+Determining Inverses Graphically and by Formula
+            </description>
+        </outcome>
+        <outcome>
+            <title>Transformed Functions</title>
+            <slug>FUN6</slug>
+            <path>outcomes/FUN6</path>
+            <description>
+Sketching the Graph of a Transformed Function
+            </description>
+        </outcome>
+        <outcome>
+            <title>Local Behavior</title>
+            <slug>FUN7</slug>
+            <path>outcomes/FUN7</path>
+            <description>
+Locating Minimums, Maximums, Intervals of Increase and Intervals of Decrease
+            </description>
+        </outcome>
+        <outcome>
+            <title>Absolute Value</title>
+            <slug>FUN8</slug>
+            <path>outcomes/FUN8</path>
+            <description>
+Solving Absolute Value Equations and Inequalities
+            </description>
+        </outcome>
+        
+        <outcome>
+            <title>Linear Graphs</title>
+            <slug>LIN1</slug>
+            <path>outcomes/LIN1</path>
+            <description>
+Sketching the Graph of a Linear Function
+            </description>
+        </outcome>       
+        <outcome>
+            <title>Equation of a Line</title>
+            <slug>LIN2</slug>
+            <path>outcomes/LIN2</path>
+            <description>
+Writing the Equation of a Line
+            </description>
+        </outcome>
+        <outcome>
+            <title>Linear Models</title>
+            <slug>LIN3</slug>
+            <path>outcomes/LIN3</path>
+            <description>
+Constructing and Applying a Linear Model
+            </description>
+        </outcome>
+        <outcome>
+            <title>Systems of Equations</title>
+            <slug>LIN4</slug>
+            <path>outcomes/LIN4</path>
+            <description>
+Solving Systems of Linear Equations in Two Variables
+            </description>
+        </outcome>
+        
+        <outcome>
+            <title>Identifying Polynomials</title>
+            <slug>RAT1</slug>
+            <path>outcomes/RAT1</path>
+            <description>
+Identifying Polynomials
+            </description>
+        </outcome>
+        <outcome>
+            <title>Quadratic Models</title>
+            <slug>RAT2</slug>
+            <path>outcomes/RAT2</path>
+            <description>
+Constructing and Applying a Quadratic Model
+            </description>
+        </outcome>
+        <outcome>
+            <title>Quadratic Graphs</title>
+            <slug>RAT3</slug>
+            <path>outcomes/RAT3</path>
+            <description>
+Sketching the Graph of a Quadratic Function
+            </description>
+        </outcome>
+        <outcome>
+            <title>Polynomial Equations</title>
+            <slug>RAT4</slug>
+            <path>outcomes/RAT4</path>
+            <description>
+Solving Polynomial Equations
+            </description>
+        </outcome>
+        <outcome>
+            <title>Polynomial Graphs</title>
+            <slug>RAT5</slug>
+            <path>outcomes/RAT5</path>
+            <description>
+Sketching the Graph of Polynomial Function
+            </description>
+        </outcome>
+        <outcome>
+            <title>Dividing Polynomials</title>
+            <slug>RAT6</slug>
+            <path>outcomes/RAT6</path>
+            <description>
+Divinding Polynomials
+            </description>
+        </outcome>
+        <outcome>
+            <title>Rational Graphs</title>
+            <slug>RAT7</slug>
+            <path>outcomes/RAT7</path>
+            <description>
+Sketching the Graph of a Rational Function
+            </description>
+        </outcome>
+        
+        <outcome>
+            <title>Exponential Graphs</title>
+            <slug>EXPLOG1</slug>
+            <path>outcomes/EXPLOG1</path>
+            <description>
+Sketching the Graph of a Exponential Function
+            </description>
+        </outcome>
+        <outcome>
+            <title>Evaluating Logarithms</title>
+            <slug>EXPLOG2</slug>
+            <path>outcomes/EXPLOG2</path>
+            <description>
+Evaluating Logarithmic Expressions
+            </description>
+        </outcome>
+        <outcome>
+            <title>Exponential Equations</title>
+            <slug>EXPLOG3</slug>
+            <path>outcomes/EXPLOG3</path>
+            <description>
+Solving Exponential Equations
+            </description>
+        </outcome>
+        <outcome>
+            <title>Manipulating Logarithms</title>
+            <slug>EXPLOG4</slug>
+            <path>outcomes/EXPLOG4</path>
+            <description>
+Expanding and Condensing Logarithmic Expressions
+            </description>
+        </outcome>
+        <outcome>
+            <title>Logarithmic Equations</title>
+            <slug>EXPLOG5</slug>
+            <path>outcomes/EXPLOG5</path>
+            <description>
+Solving Logarithmic Equations
+            </description>
+        </outcome>
+        <outcome>
+            <title>Exponential Models</title>
+            <slug>EXPLOG6</slug>
+            <path>outcomes/EXPLOG6</path>
+            <description>
+Constructing and Applying an Exponential Model
+            </description>
+        </outcome>
+
+        <outcome>
+            <title>Angles</title>
+            <slug>TRIG1</slug>
+            <path>outcomes/TRIG1</path>
+            <description>
+Rewriting Angles and Finding Reference Angles
+            </description>
+        </outcome>
+        <outcome>
+            <title>Evaluating Trigonemetric Functions</title>
+            <slug>TRIG2</slug>
+            <path>outcomes/TRIG2</path>
+            <description>
+Evaluating and Approximating Trigonometric Functions
+            </description>
+        </outcome>
+        <outcome>
+            <title>Trigonometric Graphs</title>
+            <slug>TRIG3</slug>
+            <path>outcomes/TRIG3</path>
+            <description>
+Sketching the Graph of Sine or Cosine with Amplitude and Frequency
+            </description>
+        </outcome>
+        <outcome>
+            <title>Manipulating Trigonometric Expressions</title>
+            <slug>TRIG4</slug>
+            <path>outcomes/TRIG4</path>
+            <description>
+Manipulating Trigonometric Epxressions
+            </description>
+        </outcome>
+        <outcome>
+            <title>Right Triangles</title>
+            <slug>TRIG5</slug>
+            <path>outcomes/TRIG5</path>
+            <description>
+Solving Right Triangles
+            </description>
+        </outcome>
+        <outcome>
+            <title>Trigonometric Models</title>
+            <slug>TRIG6</slug>
+            <path>outcomes/TRIG6</path>
+            <description>
+Constructing and Applying Trigonometric Models
+            </description>
+        </outcome>
+        
+    </outcomes>
+</bank>

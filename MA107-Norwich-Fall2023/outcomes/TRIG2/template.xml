@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>Answer the following prompts regarding the evaluation of trigonometric functions.</p>
+        <list>
+            <item><p>What is the exact value of <m>{{SCdeg}}</m>?</p></item>
+            <item><p>What is the exact value of <m>{{SCrad}}</m>?</p></item>
+            <item><p>Estimate <m>{{Other}}</m> to two decimal places.</p></item>
+            <item><p>If <m>{{Pyth1}}</m> and <m>\theta</m> is in quadrant {{quadrant}}, find <m>{{Pyth2}}</m>. Round your answer to two decimal places.</p></item>
+            <item><p>What is the exact value of <m>{{Inverse}}?</m></p></item>
+        </list>
+    </content>
+    <outtro>
+        <p>The answers are below.</p>
+        <list>
+            <item><p><m>{{SCdeg}} = {{answer_1}}</m>.</p></item>
+            <item><p><m>{{SCrad}} = {{answer_2}}</m>.</p></item>
+            <item><p><m>{{Other}} \approx {{answer_3}}</m>.</p></item>
+            <item><p><m>{{Pyth2}} \approx {{answer_4}}</m>.</p></item>
+            <item><p><m>{{Inverse}} = {{answer_5}}</m>.</p></item>
+        </list>
+    </outtro>
+</knowl>

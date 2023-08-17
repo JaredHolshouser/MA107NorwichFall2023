@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>Sketch the graph of the line passing through <m>{{point1}}</m> and <m>{{point2}}</m>. Compute the slope, the y-intercept, and the x-intercept. Report the slope as a fraction and the intercepts as coordinates.</p>
+    </content>
+    <outtro>
+        <p>The slope is <m>m = {{slope}}</m>, the y-intercept is  at <m>(0,{{y_int}})</m>, and the x-intercept is at <m>({{x_int}},0)</m>.</p>
+        <p>The graph is pictured below. The intercepts are in blue and the original points are in red.</p>
+        <p><image
+            source="assets/PBL1/generated/{{__seed__}}/Show.png"
+            description="a red line through the two given red points and the blue intercepts."
+          />
+        </p>
+        <p>Check the scale on the <m>x</m> and <m>y</m> axes to verify the slope is correct.</p>
+    </outtro>
+</knowl>

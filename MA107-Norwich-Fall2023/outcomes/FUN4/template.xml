@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>Consider <m>f(x) = {{f}}</m> and <m>g(t) = {{g}}</m>. Compute the following four combinations of these functions.</p>
+        <list>
+            <item><p><m>\left({{op_1}}\right)({{x_in}})</m></p></item>
+            <item><p><m>\left({{op_2}}\right)({{x_in}})</m></p></item>
+            <item><p><m>\left({{op_3}}\right)({{variable}})</m></p></item>
+            <item><p><m>\left({{op_3}}\right)({{x_in}})</m></p></item>
+        </list>
+    </content>
+    <outtro>
+        <p>The answers are below. It will help you to know that <m>f({{x_in}}) = {{f_eval}}</m>, <m>g({{x_in}}) = {{g_eval}}</m>, <m>f({{g_eval}}) = {{fg_eval}}</m>, and <m>g({{f_eval}}) = {{gf_eval}}</m>.</p>
+        <list>
+            <item><p><m>\left({{op_1}}\right)({{x_in}}) = {{expl_1}} = {{ans_1}}</m>.</p></item>
+            <item><p><m>\left({{op_2}}\right)({{x_in}}) = {{expl_2}} = {{ans_2}}</m>.</p></item>
+            <item><p><m>\left({{op_3}}\right)({{variable}}) = {{ans_3}}</m>.</p></item>
+            <item><p><m>\left({{op_3}}\right)({{x_in}}) = {{expl_4}} = {{ans_4}}</m>.</p></item>
+       </list>
+    </outtro>
+</knowl>

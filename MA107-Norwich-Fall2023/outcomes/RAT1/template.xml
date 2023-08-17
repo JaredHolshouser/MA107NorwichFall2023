@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>Write down a formula for a function which is a power function but is not a polynomial function.</p>
+        <p>Write down a formula for a function which is a polynomial function but is not a power function.</p>
+        <p>Write down a formula for a function which is both a polynomial and a power function.</p>
+    </content>
+    <outtro>
+        <p>Power functions that are not polynomials look like <m>f(x) = x^p</m>, where <m>p</m> is not a positive whole number. <m>f(x) = x^{-3}</m>, <m>f(x) = \frac{1}{x}</m>, <m>f(x) = x^{\frac{3}{2}}</m>, and <m>f(x) = \sqrt{x}</m> are all good examples.</p>
+        <p>Any polynomial with more than one non-zero term is not a power function. <m>g(x) = 5x^2 + 3x - 1</m> is a good example.</p>
+        <p>Polynomials with one non-zero term are also power functions. <m>h(x) = x^3</m> is a good example.</p>
+    </outtro>
+</knowl>

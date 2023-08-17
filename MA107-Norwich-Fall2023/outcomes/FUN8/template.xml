@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>Find all the solutions to <m>{{equation}}</m></p>
+        <p>Then solve <m>{{inequality}}</m>. Write your answer in interval notation.</p>
+        <p>Finally, <m>{{trivial}}</m> either has no solution or is true for all real numbers. Which one is it and why?</p>
+    </content>
+    <outtro>
+        <p>The solutions to the equation are <m>x = {{answer1}}, {{answer2}}</m></p>
+        <p>The solution set to the inequality is <m>{{interval}}</m></p>
+        <p>{{trivial_answer}} because the absolute value is always positive.</p>
+    </outtro>
+</knowl>

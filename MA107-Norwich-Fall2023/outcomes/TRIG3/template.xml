@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <knowl>
+        <content>
+            <p>Sketch the graph of the function <m>y = {{f}}(x)</m> 
+            on the period <m>[0,2\pi]</m>. On your graph, indicate the points
+            at each of the <m>x</m>-values: 
+            <m mode="display">
+            0, 
+            \frac{\pi}{6}, \frac{\pi}{4}, \frac{\pi}{3}, \frac{\pi}{2}, 
+            \frac{2\pi}{3}, \frac{3\pi}{4}, \frac{5\pi}{6}, \pi, 
+            \frac{7\pi}{6}, \frac{5\pi}{4}, \frac{4\pi}{3}, \frac{3\pi}{2}, 
+            \frac{5\pi}{3}, \frac{7\pi}{4}, \frac{11\pi}{6}, 2\pi
+            </m>
+            </p>
+
+        </content>
+        <outtro>
+            <p>
+                <image
+                    source = "assets/TRIG3/generated/{{__seed__}}/Show1.png"
+                    description = "a graph of one period of $y = {{f}}(x)$"
+                />
+            </p>
+        </outtro>
+    </knowl>
+    <knowl>
+        <content>
+            <p>Consider the function <m>g(x) = {{A}} {{f}}( {{arg}} ) </m>.</p>
+                <list>
+                    <item><p>What is the amplitude of <m>g</m>?</p></item>
+                    <item><p>What is the period of <m>g</m>?</p></item>
+                    <item><p>Sketch the graph of <m>y=g(x)</m> on one period. 
+                    On your graph, indicate the <m>x</m>-values at which 
+                    <m>g</m> has maxima, minima, and zeroes.</p></item>
+                </list>
+        </content>
+        <outtro>
+            <list>
+                <item><p>The amplitude of <m>g</m> is <m>{{amp}}</m>.</p></item>
+                <item><p>the period of <m>g</m> is <m>{{T}}</m>.</p></item>
+                <item><p>
+                    <image
+                        source = "assets/TRIG3/generated/{{__seed__}}/Show2.png"
+                        description = "a graph of one period of $y = {{g(x)}}$"
+                    /></p></item>
+            </list>
+        </outtro>
+    </knowl>
+</knowl>

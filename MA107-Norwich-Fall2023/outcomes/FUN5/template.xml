@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p>Complete the three tasks below. Clearly mark which of your sketches lines up with each task.</p>
+    </intro>
+    
+    <knowl>
+        <content>
+            <p>Sketch the graph of the inverse of the following function.</p>
+            <p><image
+                source="assets/FUN5/generated/{{__seed__}}/Graph.png"
+                description="a one to one function in red.r"
+              />
+            </p>
+        </content>
+        <outtro>
+            <p>The graph of the inverse is the reflection of the original graph over the line <m>y = x</m>. The original function is here in red, the inverse is in blue, and the dashed line is <m>y = x</m>.</p>
+            <p><image
+                source="assets/FUN5/generated/{{__seed__}}/GraphInverse.png"
+                description="a one to one function in red, a dashed line along the diagonal, and the relection of the red graph over the diagonal line in blue."
+              />
+            </p>
+        </outtro>
+    </knowl>
+    
+    <knowl>
+        <content>
+            <p>Consider the functions <m>f(x) = {{f}}</m> and <m>g(t) = {{g}}</m>. Using the following information to determine if <m>f</m> and <m>g</m> are inverses of each other.</p>
+            <list>
+                <item><p><m>f(f(x)) = {{ff}}</m></p>,</item>
+                <item><p><m>g(g(x)) = {{gg}}</m></p>,</item>
+                <item><p><m>f(g(t)) = {{fg}}</m></p>, and</item>
+                <item><p><m>g(f(x)) = {{gf}}</m></p>.</item>
+            </list>
+        </content>
+        <outtro>
+            <p>You can check to see if they are inverses by composing the functions together and seeing if they cancel out. Since <m>f(g(t)) = {{fg}}</m> and <m>g(f(x)) = {{gf}}</m>, we know that {{answer_2}}.</p>
+        </outtro>
+    </knowl>
+    
+    <knowl>
+        <content>
+            <p>Calculate the inverse of <m>h(x) = {{h}}</m>.</p>
+        </content>
+        <outtro>
+            <p>The inverse is calculating by first writing <m>y = {{h}}</m>, then swapping <m>x</m> and <m>y</m>, and then solving for <m>y</m>. After you do that, you should get <m>h^{-1}(x) = {{h_inv}}</m>.</p>
+        </outtro>
+    </knowl>
+</knowl>

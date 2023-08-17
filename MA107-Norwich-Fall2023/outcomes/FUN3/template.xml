@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>Evaluate the following piecewise function at <m>x = {{input}}</m>.</p>
+        <p> <m>{{function}}</m> </p>
+    </content>
+    <outtro>
+        <p><m>f({{input}}) = {{output}}</m></p>
+    </outtro>
+</knowl>

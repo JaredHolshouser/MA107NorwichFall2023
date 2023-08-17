@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>Sketch the graph of <m>y = {{quadratic}}</m>. Make sure you compute and label all of the following features of the parabola. Show all of your work to recieve full credit. To factor the quadratic, it may help you to know that <m>{{quadratic}} = {{scale}} \cdot ({{unscaled}})</m>.</p>
+        <list>
+            <item><p>The vertex.</p></item>
+            <item><p>The x-intercepts.</p></item>
+            <item><p>The y-intercept.</p></item>
+        </list>
+    </content>
+    <outtro>
+        <p>The vertex is at <m>(\frac{-b}{2a},f(\frac{-b}{2a})) = {{vertex}}</m>. The x-intercepts are <m>{{x_int_1}}</m> and <m>{{x_int_2}}</m>. The y-intercept is <m>{{y_int}}</m>. The graph of the quadratic is below.</p>
+        <p><image
+            source="assets/RAT3/generated/{{__seed__}}/Show.png"
+            description="a parabola passing through the stated points"
+         />
+       </p>
+    </outtro>
+</knowl>

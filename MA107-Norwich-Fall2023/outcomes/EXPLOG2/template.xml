@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>Evaluate the following expressions. Write DNE if the answer does not exist. Round to two decimal places.</p>
+        <list>
+            <item><p><m>{{expression_1}}</m></p></item>
+            <item><p><m>{{expression_2}}</m></p></item>
+            <item><p><m>{{expression_3}}</m></p></item>
+            <item><p><m>{{expression_4}}</m></p></item>
+        </list>
+    </content>
+    <outtro>
+        <p>The answers are listed below. Recall that <m>\log_b(x) = p</m> precisely when <m>b^p = x</m>.</p>
+        <list>
+            <item><p><m>{{expression_1}} {{answer_1}}</m></p></item>
+            <item><p><m>{{expression_2}} {{answer_2}}</m></p></item>
+            <item><p><m>{{expression_3}} {{answer_3}}</m></p></item>
+            <item><p><m>{{expression_4}} {{answer_4}}</m></p></item>
+        </list>
+    </outtro>
+</knowl>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>For the graph below, determine the following.</p>
+        <list>
+            <item><p> The intervals where the function is increasing,</p></item>
+            <item><p> The intervals where the function is decreasing,</p></item>
+            <item><p> The coordinates where the function has a local maximum, and </p></item>
+            <item><p> The coordinates where the function has a local minimum, and </p></item>
+        </list>
+        <p><image
+            source="assets/FUN7/generated/{{__seed__}}/Show.png"
+            description="a bendy polynomial function in red. It is a scaled version of the integral of {{formula}}."
+          />
+        </p>
+    </content>
+    <outtro>
+        <list>
+            <item><p> The function is increasing on <m>{{increasing}}</m>,</p></item>
+            <item><p> The function is decreasing on <m>{{decreasing}}</m>,</p></item>
+            <item><p>{{max_answer}},</p></item>
+            <item><p>{{min_answer}}</p></item>
+        </list>
+    </outtro>
+</knowl>

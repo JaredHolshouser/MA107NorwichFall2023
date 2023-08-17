@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>Write an equation of the line with slope <m>{{slope}}</m> that passes through the point <m>({{x_coordinate}},{{y_coordinate}})</m>.</p>
+        <p>Write an equation of the line that passes through <m>({{x1}},{{y1}})</m> and <m>({{x2}},{{y2}})</m>.</p>
+        <p>Write an equation of the line that is {{relationship}} to <m> y = {{line}}</m> and passes through <m>({{x_coordinate}},{{y_coordinate}})</m>.</p>
+    </content>
+    <outtro>
+        <p>One equation is <m>{{equation1}}</m>. In slope-intercept form that becomes <m>{{equation1SI}}</m>.</p>
+        <p>One equation is <m>{{equation2}}</m>. In slope-intercept form that becomes <m>{{equation2SI}}</m>.</p>
+        <p>One equation is <m>{{equation3}}</m>. In slope-intercept form that becomes <m>{{equation3SI}}</m>.</p>
+    </outtro>
+</knowl>

@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        {{#scenario}}
+            {{#phrasing1}}
+                <p>A projectile is launched from a platform that is {{y0}} {{units}} off the ground at a speed of {{v0}} {{units}} per second. Its height above the ground is given by the following equation:</p> 
+                <p><m>h(t) = {{model}}</m>.</p>
+                <p><m>t</m> is measured in seconds and the height, <m>h(t)</m>, is measured in {{units}}. Answer the following questions, rounding your answers to two decimal places.</p>
+                <list>
+                    <item><p>How high is the projectile off the ground after <m>{{x_in}}</m> seconds?</p></item>
+                    <item><p>Use the quadratic formula to determine when the projectile will hit the ground.</p></item>
+                    <item><p>Determine the maximum height of the projectile.</p></item>
+                    <item><p>At what times is this model not accurate?</p></item>
+                </list>
+            {{/phrasing1}}
+      
+            {{#phrasing2}}
+                <p>A {{material}} hangs between two posts, roughly forming a parabola. The height of the {{material}} off of the ground is given by the following equation:</p> 
+                <p><m>h(x) = {{model}}</m>.</p>
+                <p><m>x</m> is the distance from the the first post in {{units}} and the height, <m>h(x)</m>, is measured in {{units}}. Answer the following questions, rounding your answers to two decimal places.</p>
+                <list>
+                    <item><p>How high is the {{material}} above the ground when it is <m>{{x_in}}</m> away from the first post?</p></item>
+                    <item><p>The height of both posts is <m>{{height}}</m> {{units}}. Use the quadratic formula to determine when the {{material}} will be <m>{{height}}</m> {{units}} off the ground again. Because the posts are the same height, this tells you how far apart the posts are.</p></item>
+                    <item><p>Determine the lowest height of the {{material}}.</p></item>
+                    <item><p>At what distance from the first post is this model not accurate?</p></item>
+                </list>
+            {{/phrasing2}}
+        
+          {{#phrasing3}}
+                <p>A rancher is forming an animal enclosure next to a river. They have {{perimeter}} {{units}} of fence they can use to form the enclosure. If they make the enclosure <m>w</m> {{units}} wide, then the area of the enclosure is</p> 
+                <p><m>A(w) = {{model}}</m> square {{units}}.</p>
+                <p>Answer the following questions, rounding your answers to two decimal places.</p>
+                <list>
+                    <item><p>What is the area of the enclosure when the width is <m>{{x_in}}</m>?</p></item>
+                    <item><p>At what widths will the area of the enclosure be equal to <m>0</m>?</p></item>
+                    <item><p>Determine the maximum area of the enclosure.</p></item>
+                    <item><p>At what widths is this model not accurate?</p></item>
+                </list>
+            {{/phrasing3}}
+        {{/scenario}}
+      
+        <p>{{Prompt}}</p>
+    </intro>
+    
+    <outtro>
+        {{#scenario}}
+            {{#phrasing1}}
+                <list>
+                    <item><p>After {{x_in}} seconds, the projectile is <m>{{y_out}}</m> {{units}} off of the ground.</p></item>
+                    <item><p>The projectile will hit the ground aftert <m>{{root}}</m> seconds.</p></item>
+                    <item><p>The maximum height of the projectile is <m>{{optimum}}</m> {{units}}.</p></item>
+                    <item><p>The model is inaccurate for negative times and for times greater than <m>{{root}}</m> seconds.</p></item>
+                </list>
+            {{/phrasing1}}
+      
+            {{#phrasing2}}
+                <list>
+                    <item><p>When it is <m>{{x_in}}</m> away from the first post, the {{material}} is <m>{{y_out}}</m> {{units}} off of the ground.</p></item>
+                    <item><p>The {{material}} will be <m>{{height}}</m> {{units}} off of the ground again when <m>x = {{root}}</m>.</p></item>
+                    <item><p>The lowest height of the {{material}} is <m>{{optimum}}</m> {{units}}.</p></item>
+                    <item><p>The model is inaccurate for negative distances and for distances greater than <m>{{root}}</m> {{units}}.</p></item>
+                </list>
+            {{/phrasing2}}
+      
+            {{#phrasing3}}
+                <p>Multiplied out, the model is <m>A(w) = {{simplified_model}}</m>.</p>
+                <list>
+                    <item><p>When the width is <m>{{x_in}}</m>, the area is <m>{{y_out}}</m> square {{units}}.</p></item>
+                    <item><p>The enclosure will have area <m>0</m> when <m>w = 0</m> and <m>w = {{root}}</m>.</p></item>
+                    <item><p>The maximum area of the enclosure is <m>{{optimum}}</m> square {{units}}.</p></item>
+                    <item><p>The model is not accurate for negative widths or for widths greater than <m>{{root}}</m> {{units}}.</p></item>
+                </list>
+            {{/phrasing3}}
+        {{/scenario}}
+    </outtro>
+</knowl>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        {{#scenario}}
+            {{#phrasing1}}
+            <p>The angle of elevation to the top of a {{tall_object}} is <m>{{theta}}^\circ</m> when you stand {{side}} {{units}} away from it. Draw a diagram of this situation. Using this information, find out how tall the {{tall_object}} is. Round your answer to two decimal places.</p> 
+            {{/phrasing1}}
+      
+            {{#phrasing2}}
+                <p>A {{side}}-foot ladder leans against a building in such a way that the angle between the ladder and the ground is <m>{{theta}}^\circ</m>. Draw a diagram of this situation. Using this information, find out how tall the building is. Round your answer to two decimal places.</p> 
+            {{/phrasing2}}
+        
+          {{#phrasing3}}
+                <p>A well is {{side}} feet across, and when you look down it, the angle of depression from the top of the well on one side to the bottom of the well on the other side is <m>{{theta}}^\circ</m>. Draw a diagram of this situation. Using this information, find out how deep the well is. Round your answer to two decimal places.</p>
+            {{/phrasing3}}
+        
+            {{#phrasing4}}
+                <p>While walking, you come across a {{slanted_object}}. You notice that the angle it makes with the ground is about <m>{{theta}}^\circ</m>, and when you walk up it, its slanted side is about {{side}} {{units}} long. Draw a diagram of this situation. Using this information, find out the elevation change from the bottom of the {{slanted_object}} to the top of it (i.e. how tall is it?). Round your answer to two decimal places.</p>
+            {{/phrasing4}}
+        {{/scenario}}
+      
+        <p>{{Prompt}}</p>
+    </intro>
+    
+    <outtro>
+        {{#scenario}}
+            {{#phrasing1}}
+                <p> The {{tall_object}} is about {{height}} {{units}} tall. This comes from the fact that <m>\tan({{theta}}^\circ) = \frac{\text{opposite}}{\text{adjacent}} = \frac{\text{height}}{ {{side}} }</m>.</p>
+            {{/phrasing1}}
+      
+            {{#phrasing2}}
+                <p>The building is about {{height}} feet tall. This comes from the fact that <m>\sin({{theta}}^\circ) = \frac{\text{opposite}}{\text{hypotenuse}} = \frac{\text{height}}{ {{side}} }</m>.</p>
+            {{/phrasing2}}
+      
+            {{#phrasing3}}
+                <p> The well is about {{height}} feet deep. This comes from the fact that <m>\tan({{theta}}^\circ) = \frac{\text{opposite}}{\text{adjacent}} = \frac{\text{depth}}{ {{side}} }</m>.</p>
+            {{/phrasing3}}
+        
+            {{#phrasing4}}
+                <p>The change in elevation is about {{height}} {{units}}. This comes from the fact that <m>\sin({{theta}}^\circ) = \frac{\text{opposite}}{\text{hypotenuse}} = \frac{\text{elevation change}}{ {{side}} }</m>.</p>
+            {{/phrasing4}}
+        {{/scenario}}
+    </outtro>
+</knowl>

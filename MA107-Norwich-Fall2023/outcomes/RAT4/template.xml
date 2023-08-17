@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>Solve the quadratic equation using factoring. Then solve either the cubic equation or the quartic equation using a more advanced factoring technique. Only report the answers that are real numbers.</p>
+        <list>
+            <item><p><m>{{quadratic_simple}} = 0</m></p></item>
+            <item><p><m>{{cubic_simple}} = 0</m></p></item>
+            <item><p><m>{{quartic_simple}} = 0</m></p></item>
+        </list>
+    </content>
+    <outtro>
+        <list>
+            <item><p>The real solutions to the quadratic equation are <m>x = {{root_1}},{{root_2}}</m>. This is because <m>{{quadratic_simple}} = {{quadratic}}</m>.</p></item>
+            <item><p>{{cubic_phrase}} <m>x = {{cubic_sol_1}}{{cubic_sol_2}}{{cubic_sol_3}}</m>. This is because <m>{{cubic_simple}} = {{cubic}}</m>. You can see this if you factor by grouping.</p></item>
+            <item><p>For the quartic equation, {{fourth_phrase}}<m>{{fourth_sol_1}}{{fourth_sol_2}}{{fourth_sol_3}}{{fourth_sol_4}}</m>. This is because <m>{{quartic_simple}} = {{quartic}}</m>. You can see this if you notice that the quartic is quadratic in form.</p></item>
+        </list>
+    </outtro>
+</knowl>

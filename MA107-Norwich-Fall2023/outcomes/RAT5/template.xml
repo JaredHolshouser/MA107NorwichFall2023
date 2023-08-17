@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>Consider <m>p(x) = {{polynomial_simplified}}</m>. It will help you to know that </p> 
+        <p><m>{{polynomial_simplified}} = {{polynomial}}</m></p>.
+        <list>
+            <item><p>Determine the end behavior of the graph.</p></item>
+            <item><p>Find the <m>x</m>-intercepts of the graph. Make sure you record their multiplicity.</p></item>
+            <item><p>Find the <m>y</m>-intercept of the graph.</p></item>
+            <item><p>Use the information from the previous three parts to sketch the graph of <m>p</m>. The <m>y</m>-intercept may be large, so feel free to have your <m>y</m>-axis be at a different scale than your <m>x</m>-axis.</p></item>
+        </list>
+
+    </content>
+    <outtro>
+        <list>
+            <item><p>As <m>x \to -\infty</m>, <m>y \to {{left_end}}</m>. As <m>x \to \infty</m>, <m>y \to {{right_end}}</m>.</p></item>
+            <item><p>The <m>x</m>-intercepts are <m>{{x_ints}}</m>. They have multiplicity <m>{{mults}}</m>, respectively. Remember, the graph passes through the <m>x</m>-axis when the multiplicity is odd and bounces off when the multiplicity is even.</p></item>
+            <item><p>The <m>y</m>-intercept is at <m>(0,{{y_int}})</m>.</p></item>
+            <item><p>The graph of <m>p</m> is below.</p></item>
+        </list>
+        <p><image
+            source="assets/RAT5/generated/{{__seed__}}/Show.png"
+            description="a bendy polynomial function is in red. It satisfies the information described above."
+          />
+        </p>
+    </outtro>
+</knowl>

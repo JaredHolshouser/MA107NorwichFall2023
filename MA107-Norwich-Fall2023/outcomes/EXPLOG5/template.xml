@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>Solve the following equations for <m>x</m>.</p>
+        <list>
+            <item><p><m>{{equation_1}}</m></p></item>
+            <item><p><m>{{equation_2}}</m></p></item>
+        </list>
+    </content>
+    <outtro>
+        <p>The solutions to the equations are listed below.</p>
+        <list>
+            <item><p>The solution to <m>{{equation_1}}</m> is <m>x = {{solution_1}}</m> because <m>{{reason_1}}</m>.</p></item>
+            <item><p>The solution to <m>{{equation_2}}</m> is <m>x = {{solution_2}}</m> because <m>{{reason_2}}</m>.</p></item>
+        </list>
+    </outtro>
+</knowl>

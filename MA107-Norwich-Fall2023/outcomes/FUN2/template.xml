@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>Find the domain of <m>{{function}}</m>. Write your answer in interval notation.</p>
+    </content>
+    <outtro>
+        <p>The domain is <m>{{domain}}</m>.</p>
+    </outtro>
+</knowl>

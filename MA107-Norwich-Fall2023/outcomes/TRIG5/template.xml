@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p>For each of the three right triangles below, determine</p>
+            <list>
+                <item><p>the length of the unknown side <m>s</m>, and</p></item>
+                <item><p>the measure of the unknown angle <m>\theta</m> (in both degrees and radians).</p></item>
+            </list>
+        <p>For the first two triangles, report exact values for the angle <m>\theta</m>. 
+        For the third triangle, report approximate values for the angle <m>\theta</m> 
+        by rounding your answers to two decimal places.</p>
+    </intro>
+    <knowl>
+        <content>
+            <p>
+                <image
+                    source = "assets/TRIG5/generated/{{__seed__}}/Show1.png"
+                    description = "a right triangle"
+                />
+            </p>
+        </content>
+        <outtro>
+            <p><m>s = {{s1_value}}</m>. 
+            <m>\theta = {{theta1_value_rad}}</m> radians 
+            <m> = {{theta1_value_deg}}</m> degrees.</p>
+        </outtro>
+    </knowl>
+    <knowl>
+        <content>
+            <p>
+                <image
+                    source = "assets/TRIG5/generated/{{__seed__}}/Show2.png"
+                    description = "a right triangle"
+                />
+            </p>
+        </content>
+        <outtro>
+            <p><m>s = {{s2_value}}</m>. 
+            <m>\theta = {{theta2_value_rad}}</m> radians 
+            <m> = {{theta2_value_deg}}</m> degrees.</p>
+        </outtro>
+    </knowl>
+    <knowl>
+        <content>
+            <p>
+                <image
+                    source = "assets/TRIG5/generated/{{__seed__}}/Show3.png"
+                    description = "a right triangle"
+                />
+            </p>
+        </content>
+        <outtro>
+            <p><m>s = {{s3_value}}</m>. 
+            <m>\theta \approx {{theta3_value_rad}}</m> radians 
+            <m> \approx {{theta3_value_deg}} </m> degrees.</p>
+        </outtro>
+    </knowl>
+</knowl>

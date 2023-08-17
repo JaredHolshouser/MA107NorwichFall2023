@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>Below is a graph of <m>f(x) = {{function}}</m>. Certain key points have been highlighted.</p>
+        <p><image
+            source="assets/FUN6/generated/{{__seed__}}/Show.png"
+            description="The graph of the given function in red with red dots at key points."
+          />
+        </p>
+        <p>Now consider <m>g(x) = {{transformed}}</m>. Describe the transformations that take you from the graph of <m>f(x)</m> to the graph of <m>g(x)</m>. Then sketch the graph of <m>g(x)</m>.</p>
+    </content>
+    <outtro>
+        <p>The graph of <m>g(x)</m> is obtained from the graph of <m>f(x)</m> through the following transformations.</p>
+        <list>
+            <item><p>First, {{hshift_phrase}}.</p></item>
+            <item><p>Second, {{reflection_phrase}}, and</p></item>
+            <item><p>{{scale_phrase}}.</p></item>
+            <item><p>Finally, {{vshift_phrase}}.</p></item> 
+        </list>
+        <p>The graph of <m>g(x)</m> is is pictured below.</p>
+        <p><image
+            source="assets/FUN6/generated/{{__seed__}}/Show2.png"
+            description="The graph of the given function in red with red dots at key points. Also, the transformed graph is in blue and the transformed key points are in blue."
+          />
+        </p>
+    </outtro>
+</knowl>

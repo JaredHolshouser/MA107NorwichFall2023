@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>Use trigonometric identities to manipulate the expression
+        <m mode = "display">
+        {{f}} {{g}}^{ {{p}} } (\theta) {{pm}} {{g}}^{ {{p}} } (\theta) {{h}} 
+        </m>
+        into the form <m>\pm [a(\theta)]^p\,[b(\theta)]^q</m> where 
+        <m>a(\theta)</m> and <m>b(\theta)</m> are basic trigonometric functions 
+        (or <m>1</m>), and the exponents <m>p</m> and <m>q</m> are non-negative.</p> 
+    </content>
+    <outtro>
+        <p><m>{{q}} {{g}}^{ {{p}} }(\theta) {{b}}</m></p>
+        <p>In other words, we have a form with
+            <m>[a(\theta)]^p = {{g}}^{ {{p}} }(\theta)</m> and
+            <m>[b(\theta)]^q = {{bb}}</m>.
+        </p>
+    </outtro>
+</knowl>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>Consider the angle <m>{{angle}}</m>.</p>
+        <list>
+            <item><p>What angle between <m>{{min_angle}}</m> and <m>{{max_angle}}</m> is coterminal with <m>{{angle}}</m>?</p></item>
+            <item><p>What is the reference angle for <m>{{angle}}</m>?</p></item>
+            <item><p>Convert <m>{{angle}}</m> from {{state_1}} to {{state_2}}.</p></item>
+            <item><p>Roughly sketch your results from parts 1 and 2 on a unit circle.</p></item>
+        </list>
+    </content>
+    <outtro>
+        <p>The answers are below.</p>
+        <list>
+            <item><p><m>{{coterminal}}</m> is coterminal with <m>{{angle}}</m>. You get this by adding/subtracting full rotations to the angle until the result falls between <m>{{min_angle}}</m> and <m>{{max_angle}}</m>.</p></item>
+            <item><p>The reference angle is <m>{{reference}}</m>. This is the angle in the first quadrant that is tilted away from the x-axis the same distance as your original angle.</p></item>
+            <item><p>In {{state_2}}, the angle is written as <m>{{converted}}</m>. This comes from multiplying by <m>{{conversion_factor}}</m>.</p></item>
+            <item><p>The sketch is below.</p></item>
+        </list>
+        <p><image
+                source="assets/TRIG1/generated/{{__seed__}}/Show.png"
+                description="a red unit circle with the coterminal and reference angles in blue and purple, respectively"
+              />
+        </p>
+    </outtro>
+</knowl>
