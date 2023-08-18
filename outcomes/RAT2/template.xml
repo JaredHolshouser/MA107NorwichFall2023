@@ -47,7 +47,7 @@
             {{#phrasing1}}
                 <list>
                     <item><p>After {{x_in}} seconds, the projectile is <m>{{y_out}}</m> {{units}} off of the ground.</p></item>
-                    <item><p>The projectile will hit the ground aftert <m>{{root}}</m> seconds.</p></item>
+                    <item><p>The projectile will hit the ground after <m>{{root}}</m> seconds.</p></item>
                     <item><p>The maximum height of the projectile is <m>{{optimum}}</m> {{units}}.</p></item>
                     <item><p>The model is inaccurate for negative times and for times greater than <m>{{root}}</m> seconds.</p></item>
                 </list>

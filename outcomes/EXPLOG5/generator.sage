@@ -47,9 +47,6 @@ class Generator(BaseGenerator):
             else:
                 equation_2 = "\\ln(x + " + str(beta) + ") + \\ln(" + str(alpha) + ") = \\ln(x + " + str(gamma) + ")"
         
-        reason_2 += " \\text{ which allows you to condense the left hand side to a single logarithm, and then remove the logarithms from both sides }"
-            
-        
 
         return {
             "equation_1": equation_1,

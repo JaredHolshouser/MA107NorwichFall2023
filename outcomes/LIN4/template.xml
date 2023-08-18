@@ -9,7 +9,7 @@
             <p>Solve the following system of equations. <m>{{system_1}}</m></p>
         </content>
         <outtro>
-            <p>The solution in <m>x = {{x_sol}}</m> and <m>y = {{y_sol}}</m>.</p>
+            <p>The solution is <m>x = {{x_sol}}</m> and <m>y = {{y_sol}}</m>.</p>
         </outtro>
     </knowl>
     

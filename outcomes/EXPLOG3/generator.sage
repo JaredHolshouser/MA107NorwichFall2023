@@ -3,7 +3,7 @@ class Generator(BaseGenerator):
         #Write an equation of the form b^(linear) = b^(linear)
         base_1 = randrange(2,11)
         m_11 = (-1)^randrange(0,2)*randrange(1,10)
-        b_11 = randrange(-10,11)
+        b_11 = (-1)^randrange(0,2)*randrange(1,10)
         #Make sure there is a solution (i.e. no parallel lines)
         m_12_choices = [i for i in range(-10,11) if i != m_11 and i != 0]
         m_12 = choice(m_12_choices)
@@ -27,7 +27,7 @@ class Generator(BaseGenerator):
         exp_eqn_2 = base_21^(m_2*x + b_21) == base_22^(x + b_22)
         #Solve m_2x + b_21 = px + pb_22
         exp_sol_2 = latex(Rational((power*b_22 - b_21)/(m_2 - power)))
-        exp_reason_2 = str(base_22) + " = " + str(base_21) + "^{" + str(power) + "} \\text{ and you can apply exponent rules to reduce this to a problem where you have the same base on both sides }"
+        exp_reason_2 = str(base_22) + " = " + str(base_21) + "^{" + str(power) + "}"
         
         #Write an equation of the form ae^x + b = c
         a = randrange(2,10)

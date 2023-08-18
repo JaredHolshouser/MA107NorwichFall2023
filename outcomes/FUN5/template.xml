@@ -43,7 +43,7 @@
             <p>Calculate the inverse of <m>h(x) = {{h}}</m>.</p>
         </content>
         <outtro>
-            <p>The inverse is calculating by first writing <m>y = {{h}}</m>, then swapping <m>x</m> and <m>y</m>, and then solving for <m>y</m>. After you do that, you should get <m>h^{-1}(x) = {{h_inv}}</m>.</p>
+            <p>The inverse is calculated by first writing <m>y = {{h}}</m>, then swapping <m>x</m> and <m>y</m>, and then solving for <m>y</m>. After you do that, you should get <m>h^{-1}(x) = {{h_inv}}</m>.</p>
         </outtro>
     </knowl>
 </knowl>

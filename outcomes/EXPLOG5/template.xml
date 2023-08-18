@@ -11,7 +11,7 @@
         <p>The solutions to the equations are listed below.</p>
         <list>
             <item><p>The solution to <m>{{equation_1}}</m> is <m>x = {{solution_1}}</m> because <m>{{reason_1}}</m>.</p></item>
-            <item><p>The solution to <m>{{equation_2}}</m> is <m>x = {{solution_2}}</m> because <m>{{reason_2}}</m>.</p></item>
+            <item><p>The solution to <m>{{equation_2}}</m> is <m>x = {{solution_2}}</m> because <m>{{reason_2}}</m>, which allows you to condense the left hand side to a single logarithm, and then remove the logarithms from both sides.</p></item>
         </list>
     </outtro>
 </knowl>

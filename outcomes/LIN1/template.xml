@@ -7,7 +7,7 @@
         <p>The slope is <m>m = {{slope}}</m>, the y-intercept is  at <m>(0,{{y_int}})</m>, and the x-intercept is at <m>({{x_int}},0)</m>.</p>
         <p>The graph is pictured below. The intercepts are in blue and the original points are in red.</p>
         <p><image
-            source="assets/PBL1/generated/{{__seed__}}/Show.png"
+            source="assets/LIN1/generated/{{__seed__}}/Show.png"
             description="a red line through the two given red points and the blue intercepts."
           />
         </p>

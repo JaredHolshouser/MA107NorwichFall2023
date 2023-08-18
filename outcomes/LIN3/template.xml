@@ -1,67 +1,82 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
     <intro>
-      {{#scenario}}
-          {{#phrasing1}}
-        <p>{{name}} runs a landscaping company. They charge <m>{{slope}}</m> per hour for labor and a design fee of <m>{{intercept}}</m>. Find a linear function which computes the total cost of the landscaping project <m>C(x)</m> (in dollars) if the job takes <m>x</m> hours to complete. Then use that model to answer the following questions.</p> 
-                <list>
-                  <item><p>What is the fixed cost?</p></item>
-                  <item><p>What is the cost for each additional hour?</p></item>
-                  <item><p>What is the cost of the landscaping if it takes them {{input}} hours?</p></item>
-                </list>
-          {{/phrasing1}}
+        {{#scenario}}
+            {{#phrasing1}}
+            <p>{{name}} runs a landscaping company. They charge</p>
+            <list>
+                <item><p>{{slope}} per hour for labor and</p></item>
+                <item><p>a design fee of {{intercept}}.</p></item>
+            </list>
+            <p>Find a linear function which computes the total cost of the landscaping project <m>C(x)</m> (in dollars) if the job takes <m>x</m> hours to complete. Then use that model to answer the following questions.</p> 
+            <list>
+                <item><p>What is the fixed cost?</p></item>
+                <item><p>What is the cost for each additional hour?</p></item>
+                <item><p>What is the cost of the landscaping if it takes them {{input}} hours?</p></item>
+            </list>
+            {{/phrasing1}}
       
-          {{#phrasing2}}
-                <p>{{name}} needs to rent a trench digger. An equipment rental company charges <m>{{slope}}</m> per day plus a non-refundable insurance cost of <m>{{intercept}}</m> to rent the digger. Find a linear function which computes the total cost of renting the digger <m>C(x)</m> (in dollars), for <m>x</m> days. Then use that model to answer the following questions.</p> 
-                <list>
-                  <item><p>What is the fixed cost?</p></item>
-                  <item><p>What is the cost for each additional day?</p></item>
-                  <item><p>What is the cost of the rental if it takes them {{input}} days?</p></item>
-                </list>
-          {{/phrasing2}}
+            {{#phrasing2}}
+            <p>{{name}} needs to rent a trench digger. An equipment rental company charges</p>
+            <list>
+                <item><p>{{slope}} per day plus</p></item>
+                <item><p>a non-refundable insurance cost of {{intercept}} to rent the digger.</p></item>
+            </list>  
+            <p>Find a linear function which computes the total cost of renting the digger <m>C(x)</m> (in dollars), for <m>x</m> days. Then use that model to answer the following questions.</p> 
+            <list>
+                <item><p>What is the fixed cost?</p></item>
+                <item><p>What is the cost for each additional day?</p></item>
+                <item><p>What is the cost of the rental if it takes them {{input}} days?</p></item>
+            </list>
+            {{/phrasing2}}
         
-          {{#phrasing3}}
-                <p>{{name}} has a monthly cell phone plan that charges <m>{{slope}}</m> per minute on the phone plus a service fee of <m>{{intercept}}</m>. Find a linear function which computes the total monthly cost of the cell phone <m>C(x)</m> (in dollars), if {{name}} uses it for <m>x</m> minutes. Then use that model to answer the following questions.</p> 
-                <list>
-                  <item><p>What is the fixed cost?</p></item>
-                  <item><p>What is the cost for each additional minute on the phone?</p></item>
-                  <item><p>What is the monthly cost of the cell phone if {{name}} uses it for {{input}} minutes?</p></item>
-                </list>
-          {{/phrasing3}}
-      {{/scenario}}
+            {{#phrasing3}}
+            <p>{{name}} has a monthly cell phone plan that charges</p>
+            <list>
+                <item><p>{{slope}} per minute on the phone plus</p></item>
+                <item><p>a service fee of {{intercept}}.</p></item>
+            </list>
+            <p>Find a linear function which computes the total monthly cost of the cell phone <m>C(x)</m> (in dollars), if {{name}} uses it for <m>x</m> minutes. Then use that model to answer the following questions.</p> 
+            <list>
+                <item><p>What is the fixed cost?</p></item>
+                <item><p>What is the cost for each additional minute on the phone?</p></item>
+                <item><p>What is the monthly cost of the cell phone if {{name}} uses it for {{input}} minutes?</p></item>
+            </list>
+            {{/phrasing3}}
+        {{/scenario}}
       
-      <p>{{Prompt}}</p>
+        <p>{{Prompt}}</p>
       
-  </intro>
+    </intro>
     
-  <outtro>
-      {{#scenario}}
-          {{#phrasing1}}
-              <p>The linear model is <m>C(x) = {{model}}</m>.</p>
-              <list>
+    <outtro>
+        {{#scenario}}
+            {{#phrasing1}}
+            <p>The linear model is <m>C(x) = {{model}}</m>.</p>
+            <list>
                 <item><p>The fixed cost is {{intercept}}.</p></item>
                 <item><p>The cost of each additional hour is {{slope}}.</p></item>
                 <item><p>If the job takes {{input}} hours, it will cost {{output}}.</p></item>
-              </list>
-          {{/phrasing1}}
+            </list>
+            {{/phrasing1}}
       
-          {{#phrasing2}}
-              <p>The linear model is <m>C(x) = {{model}}</m>.</p>
-              <list>
+            {{#phrasing2}}
+            <p>The linear model is <m>C(x) = {{model}}</m>.</p>
+            <list>
                 <item><p>The fixed cost is {{intercept}}.</p></item>
                 <item><p>The cost of each additional hour is {{slope}}.</p></item>
                 <item><p>To rent the digger for {{input}} days, it will cost {{output}}.</p></item>
-              </list>
-          {{/phrasing2}}
+            </list>
+            {{/phrasing2}}
       
-          {{#phrasing3}}
-              <p>The linear model is <m>C(x) = {{model}}</m>.</p>
-              <list>
+            {{#phrasing3}}
+            <p>The linear model is <m>C(x) = {{model}}</m>.</p>
+            <list>
                 <item><p>The fixed cost is {{intercept}}.</p></item>
                 <item><p>The cost of each additional minute is {{slope}}.</p></item>
                 <item><p>If {{name}} uses the phone for {{input}} minutes, the monthly cost will be {{output}}.</p></item>
-              </list>
-          {{/phrasing3}}
-      {{/scenario}}
+            </list>
+            {{/phrasing3}}
+        {{/scenario}}
   </outtro>
 </knowl>

@@ -3,7 +3,7 @@
     <content>
         <p>Below is a graph of <m>f(x) = {{function}}</m>. Certain key points have been highlighted.</p>
         <p><image
-            source="assets/FUN6/generated/{{__seed__}}/Show.png"
+            source="assets/FUN6/generated/{{__seed__}}/Show1.png"
             description="The graph of the given function in red with red dots at key points."
           />
         </p>
