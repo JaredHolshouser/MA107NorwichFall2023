@@ -50,7 +50,6 @@ class Generator(BaseGenerator):
         
         #Choose a parent function: 0 = x^2, 1 = sqrt(x), 2 = x^3, 3 = |x|, 4 = 1/x
         spinner = randrange(0,5)
-        spinner = 4
         if spinner == 0:
             f(x) = x^2
             key_points = [(-1,1),(0,0),(1,1)]
