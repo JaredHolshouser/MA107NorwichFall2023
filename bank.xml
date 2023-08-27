@@ -5,6 +5,39 @@
     <url>https://checkit.clontz.org</url>
     <outcomes>
         <outcome>
+            <title>Linear Graphs</title>
+            <slug>LIN1</slug>
+            <path>outcomes/LIN1</path>
+            <description>
+Sketching the Graph of a Linear Function
+            </description>
+        </outcome>       
+        <outcome>
+            <title>Equation of a Line</title>
+            <slug>LIN2</slug>
+            <path>outcomes/LIN2</path>
+            <description>
+Writing the Equation of a Line
+            </description>
+        </outcome>
+        <outcome>
+            <title>Linear Models</title>
+            <slug>LIN3</slug>
+            <path>outcomes/LIN3</path>
+            <description>
+Constructing and Applying a Linear Model
+            </description>
+        </outcome>
+        <outcome>
+            <title>Systems of Equations</title>
+            <slug>LIN4</slug>
+            <path>outcomes/LIN4</path>
+            <description>
+Solving Systems of Linear Equations in Two Variables
+            </description>
+        </outcome>
+        
+        <outcome>
             <title>Identifying Functions</title>
             <slug>FUN1</slug>
             <path>outcomes/FUN1</path>
@@ -66,39 +99,6 @@ Locating Minimums, Maximums, Intervals of Increase and Intervals of Decrease
             <path>outcomes/FUN8</path>
             <description>
 Solving Absolute Value Equations and Inequalities
-            </description>
-        </outcome>
-        
-        <outcome>
-            <title>Linear Graphs</title>
-            <slug>LIN1</slug>
-            <path>outcomes/LIN1</path>
-            <description>
-Sketching the Graph of a Linear Function
-            </description>
-        </outcome>       
-        <outcome>
-            <title>Equation of a Line</title>
-            <slug>LIN2</slug>
-            <path>outcomes/LIN2</path>
-            <description>
-Writing the Equation of a Line
-            </description>
-        </outcome>
-        <outcome>
-            <title>Linear Models</title>
-            <slug>LIN3</slug>
-            <path>outcomes/LIN3</path>
-            <description>
-Constructing and Applying a Linear Model
-            </description>
-        </outcome>
-        <outcome>
-            <title>Systems of Equations</title>
-            <slug>LIN4</slug>
-            <path>outcomes/LIN4</path>
-            <description>
-Solving Systems of Linear Equations in Two Variables
             </description>
         </outcome>
         
