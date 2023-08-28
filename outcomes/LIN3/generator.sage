@@ -54,9 +54,9 @@ class Generator(BaseGenerator):
         output = model(input)
         
         #make money strings
-        slope_string = f"${float(slope):,}"
-        intercept_string = f"${float(intercept):,}"
-        output_string = f"${float(output):,}"
+        slope_string = "\\" + f"${float(slope):,}"
+        intercept_string = "\\" + f"${float(intercept):,}"
+        output_string = "\\" + f"${float(output):,}"
 
         return {
             "name": name,
