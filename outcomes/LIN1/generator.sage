@@ -1,7 +1,7 @@
 class Generator(BaseGenerator):
     def data(self):
         #Setting the x and y intercepts to be nice first
-        y_int = randrange(-10,11)
+        y_int = (-1)^randrange(0,2)*randrange(1,11)
         y_int_pt = (0,y_int)
         x_int = (-1)^randrange(0,2)*randrange(1,11)
         x_int_pt = (x_int,0)
