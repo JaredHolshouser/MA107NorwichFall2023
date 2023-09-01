@@ -1,8 +1,8 @@
 class Generator(BaseGenerator):
     def data(self):
         x1 = randrange(-10,-5)
-        x2 = randrange(x1,5)
-        x3 = randrange(x2,10)
+        x2 = randrange(x1+1,5)
+        x3 = randrange(x2+1,10)
         test = randrange(x1,10)
         m1 = randrange(-9,10)
         b1 = randrange(-9,10)

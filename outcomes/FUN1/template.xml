@@ -20,7 +20,7 @@
     
     <knowl>
         <content>
-            <p>Sketch the graph of something which is a function but is not 1-1. Explain how you know that it is a function and how you know is 1-1.</p>
+            <p>Sketch the graph of something which is a function but is not 1-1. Explain how you know that it is a function and how you know is not 1-1.</p>
         </content>
         <outtro>
             <p>The following graph is a function because it passes the vertical line test. It is not 1-1 because it fails the horizontal line test.</p>
