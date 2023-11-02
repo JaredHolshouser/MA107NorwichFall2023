@@ -6,7 +6,7 @@
     
     <knowl>
         <content>
-            <p>{{name}} used ${{principal}} to open a bank account with an annual interest rate of {{interest_percent}}%, compounded {{compounding_times}}. How much money will they have in the account after {{interest_time}} years? Round your answer to the nearest cent.</p>
+            <p>{{name}} used \${{principal}} to open a bank account with an annual interest rate of {{interest_percent}}%, compounded {{compounding_times}}. How much money will they have in the account after {{interest_time}} years? Round your answer to the nearest cent.</p>
         </content>
         <outtro>
             <p>After {{interest_time}} years, {{name}} will have {{future_value}} in the bank account. This uses the formula <m>A(t) = A_0(1 + \frac{r}{n})^{nt}</m>, where <m>A_0</m> is the initial amount in the account, <m>r</m> is the annual interest rate (written as a decimal), <m>n</m> is the number of times the interest compounds per year, and <m>t</m> is the number of years.</p>
