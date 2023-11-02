@@ -6,7 +6,7 @@
     
     <knowl>
         <content>
-            <p>{{name}} used \${{principal}} to open a bank account with an annual interest rate of {{interest_percent}}%, compounded {{compounding_times}}. How much money will they have in the account after {{interest_time}} years? Round your answer to the nearest cent.</p>
+            <p>{{name}} used \${{principal}} to open a bank account with an annual interest rate of {{interest_percent}}\%, compounded {{compounding_times}}. How much money will they have in the account after {{interest_time}} years? Round your answer to the nearest cent.</p>
         </content>
         <outtro>
             <p>After {{interest_time}} years, {{name}} will have {{future_value}} in the bank account. This uses the formula <m>A(t) = A_0(1 + \frac{r}{n})^{nt}</m>, where <m>A_0</m> is the initial amount in the account, <m>r</m> is the annual interest rate (written as a decimal), <m>n</m> is the number of times the interest compounds per year, and <m>t</m> is the number of years.</p>
@@ -17,7 +17,7 @@
         <content>
             {{#scenario}}
                 {{#phrasing1}}
-                    <p>At the beginning of an experiment, a scientist has a sample of {{initial_amount}} grams of a radioactive substance. Given that the decay rate is {{exp_percent}}% per minute, answer the following prompts. Round your answers to two decimal places.</p>
+                    <p>At the beginning of an experiment, a scientist has a sample of {{initial_amount}} grams of a radioactive substance. Given that the decay rate is {{exp_percent}}\% per minute, answer the following prompts. Round your answers to two decimal places.</p>
                     <list>
                         <item><p>Write down the an exponential equation modeling the amount left in the sample after <m>t</m> minutes.</p></item>
                         <item><p>How much of the sample is left after {{elapsed_time}} minutes?</p></item>
@@ -27,7 +27,7 @@
                 {{/phrasing1}}
       
                 {{#phrasing2}}
-                    <p>A certain bacteria population is growing continuously at a rate of {{exp_percent}}% per day. Given that the initial population is {{initial_amount}}, answer the following prompts. Round your answers to two decimal places.</p> 
+                    <p>A certain bacteria population is growing continuously at a rate of {{exp_percent}}\% per day. Given that the initial population is {{initial_amount}}, answer the following prompts. Round your answers to two decimal places.</p> 
                     <list>
                         <item><p>Write down the an exponential equation modeling the number of bacteria after <m>t</m> days.</p></item>
                         <item><p>What is the population size after {{elapsed_time}} days?</p></item>
