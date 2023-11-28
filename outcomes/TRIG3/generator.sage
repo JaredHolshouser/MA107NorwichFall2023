@@ -1,9 +1,10 @@
 class Generator(BaseGenerator):
     def data(self):
         x,t = var('x,t')
-        L1 = [i*pi/6 for i in range(13)];
-        L2 = [(2*j+1)*pi/4 for j in range(4)];
-        pts = L1+L2
+        L1 = [i*pi/2 for i in range(5)];
+        #L2 = [(2*j+1)*pi/4 for j in range(4)];
+        #pts = L1+L2
+        pts = L1
 
         f = choice([sin,cos]);
 
@@ -12,7 +13,8 @@ class Generator(BaseGenerator):
         A = randrange(2,15)*choice([-1,1]);
         
 
-        option = choice(["phase_shift","period_change"]);
+        #option = choice(["phase_shift","period_change"]);
+        option = "period_change"
         if option == "phase_shift":
             phase = choice([pi/6,pi/4,pi/3,pi/2])*choice([-2,-1,1,2]);
             per_fact = 1;
@@ -50,6 +52,6 @@ class Generator(BaseGenerator):
     def graphics(data):
 
         return {
-            "Show1": plot(data["f"](x),(x,0,2*pi),ticks=[pi/6,1/2], tick_formatter=[pi,1/2])+points([(t,data["f"](t)) for t in data["pts"]],pointsize=20,color="blue"),
+            "Show1": plot(data["f"](x),(x,0,2*pi),ticks=[pi/2,1/2], tick_formatter=[pi,1/2])+points([(t,data["f"](t)) for t in data["pts"]],pointsize=20,color="blue"),
             "Show2": plot(data["A"]*data["f"](data["arg"]),(x,data["xstart"],data["xend"]),ticks=[data["tickmarks"],None],tick_formatter=pi)
         }
