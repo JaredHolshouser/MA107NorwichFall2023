@@ -4,9 +4,9 @@
         <p>For the graph below, determine the following.</p>
         <list>
             <item><p> The intervals where the function is increasing,</p></item>
-            <item><p> The intervals where the function is decreasing,</p></item>
-            <item><p> The coordinates where the function has a local maximum, and </p></item>
-            <item><p> The coordinates where the function has a local minimum, and </p></item>
+            <item><p> the intervals where the function is decreasing,</p></item>
+            <item><p> the coordinates where the function has a local maximum, and </p></item>
+            <item><p> the coordinates where the function has a local minimum.</p></item>
         </list>
         <p><image
             source="assets/FUN7/generated/{{__seed__}}/Show.png"
@@ -17,9 +17,9 @@
     <outtro>
         <list>
             <item><p> The function is increasing on <m>{{increasing}}</m>,</p></item>
-            <item><p> The function is decreasing on <m>{{decreasing}}</m>,</p></item>
-            <item><p>{{max_answer}},</p></item>
-            <item><p>{{min_answer}}</p></item>
+            <item><p> the function is decreasing on <m>{{decreasing}}</m>,</p></item>
+            <item><p>{{max_answer}}, and</p></item>
+            <item><p>{{min_answer}}.</p></item>
         </list>
     </outtro>
 </knowl>
