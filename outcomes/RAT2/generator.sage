@@ -60,8 +60,12 @@ class Generator(BaseGenerator):
             #Form the model
             x = var('x')
             h(x) = a*(x - vertex)^2 + k
+            #Put it in ax^2 + bx + c format
             h_simple = h.simplify_full()
-            model = latex(h_simple(x=x))
+            b = round(h_simple.list()[1],2)
+            c = round(h_simple.list()[0],2)
+            h_final(x) = a*x^2 + b*x + c
+            model = latex(h_final(x=x))
             simplified_model = model
             #Find a good input
             x_in = randrange(5,10*width)

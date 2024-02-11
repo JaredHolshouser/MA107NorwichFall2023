@@ -54,7 +54,7 @@
                 {{/phrasing2}}
             
                 {{#phrasing3}}
-                    <p>At what widths will the area of the enclosure be equal to <m>{{output}}</m> square {{units}}?</p>
+                    <p>Use the quadratic formula to determine the widths that will make the area of the enclosure equal to <m>{{output}}</m> square {{units}}?</p>
                 {{/phrasing3}}
             {{/scenario}}
         </content>
@@ -78,24 +78,6 @@
         </content>
     </knowl>
     
-    <knowl>
-        <content>
-            {{#scenario}}
-                {{#phrasing1}}
-                    <p>At what times is this model not accurate?</p>
-                {{/phrasing1}}
-            
-                {{#phrasing2}}
-                    <p>At what distance from the first post is this model not accurate?</p>
-                {{/phrasing2}}
-            
-                {{#phrasing3}}
-                    <p>At what widths is this model not accurate?</p>
-                {{/phrasing3}}
-            {{/scenario}}
-        </content>
-    </knowl>
-    
     <outtro>
         {{#scenario}}
             {{#phrasing1}}
@@ -103,7 +85,6 @@
                     <item><p>After {{x_in}} seconds, the projectile is <m>{{y_out}}</m> {{units}} off of the ground.</p></item>
                     <item><p>The projectile will be {{output}} {{units}} off the ground after <m>{{root1}}</m> and <m>{{root2}}</m> seconds.</p></item>
                     <item><p>The maximum height of the projectile is <m>{{optimum}}</m> {{units}}, when <m>t = {{vertex}}</m> seconds.</p></item>
-                    <item><p>The model is inaccurate for negative times and when it outputs negative heights.</p></item>
                 </list>
             {{/phrasing1}}
       
@@ -112,7 +93,6 @@
                     <item><p>When it is <m>{{x_in}}</m> {{units}} away from the first post, the {{material}} is <m>{{y_out}}</m> {{units}} off of the ground.</p></item>
                     <item><p>The {{material}} will be <m>{{output}}</m> {{units}} off the ground again when <m>x = {{root1}}</m> and <m>x = {{root2}}</m> {{units}}.</p></item>
                     <item><p>The lowest height of the {{material}} is <m>{{optimum}}</m> {{units}}, when <m>x = {{vertex}}</m>.</p></item>
-                    <item><p>The model is inaccurate for negative distances and when it outputs heights greater than {{height}} {{units}}.</p></item>
                 </list>
             {{/phrasing2}}
       
@@ -122,7 +102,6 @@
                     <item><p>When the width is <m>{{x_in}}</m> {{units}}, the area is <m>{{y_out}}</m> square {{units}}.</p></item>
                     <item><p>The enclosure will have area <m>{{output}}</m> square {{units}} when <m>w = {{root1}}</m> and <m>w = {{root2}}</m> {{units}}.</p></item>
                     <item><p>The maximum area of the enclosure is <m>{{optimum}}</m> square {{units}}, when <m>w = {{vertex}}</m> {{units}}.</p></item>
-                    <item><p>The model is not accurate for negative widths and when it outputs negative areas.</p></item>
                 </list>
             {{/phrasing3}}
         {{/scenario}}
