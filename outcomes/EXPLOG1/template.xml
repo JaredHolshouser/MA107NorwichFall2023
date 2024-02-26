@@ -7,20 +7,17 @@
     </intro>
     
     <knowl>
-    <content><p>Explain in 1-2 sentences how you can tell which of the graphs above is the graph of the function <m>f(x) = {{f}}</m>. Describe how the features of the correct graph match the features of this function's formula.</p>
+    <content><p>The equations for the three functions graphed are</p>
+        <p><m>\quad f(x) = {{f1}}</m>,</p>
+        <p><m>\quad g(x) = {{f2}},\quad </m> and</p>
+        <p><m>\quad h(x) = {{f3}}</m>.</p>
+        
+        <p>Match the equation of the function to its graph.</p>
         </content>
-    <outtro><p>The function <m>f(x) = {{f}}</m> matches graph {{ans}}.</p>
-        </outtro>
-    </knowl>
-    
-    <knowl>
-    <content><p>By swapping two of the numbers in  <m>{{f}}</m>, show how to turn your graph from Task 1 into one of the other graphs shown above. Explain in 1-2 sentences how and whether your choice represents a kind of exponential growth, or exponential decay, and why.</p>
-        </content>
-    <outtro><p>The three functions graphed are</p>
-        <p><m>\quad f(x) = {{f1}}</m></p>
-        <p><m>\quad f(x) = {{f2}}\quad </m> and</p>
-        <p><m>\quad f(x) = {{f3}}</m>.</p>
-        <p>See if you can match which is which!</p>
+   <outtro><p>The answers are</p>
+        <p><m>\quad f(x) = {{f1}}</m> is graph {{ans1}},</p>
+        <p><m>\quad f(x) = {{f2}}</m> is graph {{ans2}}, and</p>
+        <p><m>\quad f(x) = {{f3}}</m> is graph {{ans3}}.</p>
         </outtro>
     </knowl>
 

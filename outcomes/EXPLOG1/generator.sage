@@ -24,6 +24,16 @@ class Generator(BaseGenerator):
         f3(x) = funcs[2]
         ans = ["(a)", "(b)", "(c)"]
         
+        big_shuffle = list(zip(funcs,ans))
+            
+        shuffle(big_shuffle)
+        g1(x) = big_shuffle[0][0]
+        ans1 = big_shuffle[0][1]
+        g2(x) = big_shuffle[1][0]
+        ans2 = big_shuffle[1][1]
+        g3(x) = big_shuffle[2][0]
+        ans3 = big_shuffle[2][1]
+        
         
         return{
             "f": f,
@@ -36,10 +46,12 @@ class Generator(BaseGenerator):
             "y1": f1(4) if abs(f1(4))<10 else f1(-2),
             "y2": f2(4) if abs(f2(4))<10 else f2(-2),
             "y3": f3(4) if abs(f3(4))<10 else f3(-2),
-            "f1": f1(x),
-            "f2": f2(x),
-            "f3": f3(x),
-            "ans": ans[funcs.index(f)]
+            "f1": g1(x),
+            "f2": g2(x),
+            "f3": g3(x),
+            "ans1": ans1,
+            "ans2": ans2,
+            "ans3": ans3,
         }
     @provide_data
     def graphics(data):
