@@ -16,8 +16,8 @@
         </content>
    <outtro><p>The answers are</p>
         <p><m>\quad f(x) = {{f1}}</m> is graph {{ans1}},</p>
-        <p><m>\quad f(x) = {{f2}}</m> is graph {{ans2}}, and</p>
-        <p><m>\quad f(x) = {{f3}}</m> is graph {{ans3}}.</p>
+        <p><m>\quad g(x) = {{f2}}</m> is graph {{ans2}}, and</p>
+        <p><m>\quad h(x) = {{f3}}</m> is graph {{ans3}}.</p>
         </outtro>
     </knowl>
 
