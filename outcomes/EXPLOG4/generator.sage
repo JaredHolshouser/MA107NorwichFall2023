@@ -2,57 +2,52 @@ class Generator(BaseGenerator):
     def data(self):
         plist = [2,3,5,7,9,11,13];
         p = choice(plist);
-
-        # task1.1 stuff
-        if p == 2:
-            r11 = randrange(2,8)*choice([1,-1]);
-        elif p == 3:
-            r11 = randrange(2,6)*choice([1,-1]);
-        elif p == 5 or p == 7:
-            r11 = randrange(2,4)*choice([1,-1]);
-        else:
-            r11 = choice([2,-2]);
-
-        if p < 7:
-            m = randrange(5);
-        elif p == 7:
-            m = randrange(4);
-        else:
-            m = choice([0,1]);
-
-        r21 = (2*m+1)/2;
-        r1 = r11 + r21;
-
-        if r1 == 1:
-            disp_r1 = " ";
-        else:
-            disp_r1 = r1;
-
-        # task1.2 stuff
-        plist.remove(p)
-        g = choice(plist)
         
-        if p == 2:
-            r12 = randrange(2,8);
-        elif p == 3:
-            r12 = randrange(2,6);
-        elif p == 5 or p == 7:
-            r12 = randrange(2,4);
-        else:
-            r12 = 2;
+        #task 1: Condense an expression of the form m1 ln(a+x1) + m2 ln(b+x2) + m3 ln(c+x3) into one logarithm.
+        #Set the variables
+        a = var('a');
+        b = var('b');
+        c = var('c');
         
-        r22 = randrange(r12);
-        r2 = r12 - r22;
-
-        if r22==0:
-            arg22 = " ";
+        #Choose some powers
+        m1 = randrange(1,11)*choice([1,-1]);
+        m2 = randrange(1,11)*choice([1,-1]);
+        m3 = randrange(1,11)*choice([1,-1]);
+        
+        #Choose some shifts
+        x1 = randrange(-3,3);
+        x2 = randrange(-3,3);
+        x3 = randrange(-3,3);
+        
+        #Set the simplified expression
+        simplified_inside = (a+x1)^m1 * (b + x2)^m2 * (c + x3)^m3;
+        simplified_expression = "\\ln\\left( " + latex(simplified_inside) + " \\right)"
+        
+        inside1 = a + x1;
+        inside2 = b + x2;
+        inside3 = c + x3;
+        
+        #Set the unsimplified expression
+        outside1 = m1;
+        oustide2 = m2;
+        outside3 = m3;
+        
+        if(m1 < 0):
+            sign1 = "";
         else:
-            arg22 = p^(r22);
-
-        if r2 == 1:
-            disp_r2 = " ";
+            sign1 = "+";
+            
+        if(m2 < 0):
+            sign2 = "";
         else:
-            disp_r2 = r2;
+            sign2 = "+";
+            
+        if(m3 < 0):
+            sign3 = "";
+        else:
+            sign3 = "+";
+        
+        expression1 = sign1 + str(m1) + "\\ln(" + latex(inside1) + ")" + sign2 + str(m2) + "\\ln(" + latex(inside2) + ")" + sign3 + str(m3) + "\\ln(" + latex(inside3) + ")";
 
         # task2 stuff
         x = var('x');
@@ -66,28 +61,29 @@ class Generator(BaseGenerator):
         rr = choice(["","2","3"]);
 
         power_dict = {"":1,"2":2,"3":3};
+        
+        #Choose between x^2 - c^2 and x^2 + c^2 on bottom.
+        coin_flip = choice([0,2]);
+        
+        #The x^2 - c case
+        if coin_flip == 0:
+            f(x) = x^(power_dict[pp])*(x-a)^(power_dict[qq])*(x-b)^(power_dict[rr])/(x^2-c^2);
+            expression2 = "\\ln\\left(" + latex(f(x)) + "\\right)"
+            expanded_expression = pp + "\\ln(" + latex(x) + ") + " + qq + "\\ln(" + latex(x-a) + ") + " + rr + "\\ln(" + latex(x-b) + ") - " + "\\ln(x + " + str(c) + ") - \\ln(x - " + str(c) + ")"
+         
+        #The x^2 + c case
+        else:
+            f(x) = x^(power_dict[pp])*(x-a)^(power_dict[qq])*(x-b)^(power_dict[rr])/(x^2+c^2);
+            expression2 = "\\ln\\left(" + latex(f(x)) + "\\right)"
+            expanded_expression = pp + "\\ln(" + latex(x) + ") + " + qq + "\\ln(" + latex(x-a) + ") + " + rr + "\\ln(" + latex(x-b) + ") - " + "\\ln(x^2 + " + str(c^2) + ")"
 
-        f(x) = x^(power_dict[pp])*(x-a)^(power_dict[qq])*(x-b)^(power_dict[rr])/(x^2-c^2);
+        
 
 
         return {
-            "p": p,
-            "arg11": p^(r11),
-            "arg21": p^(r21),
-            "r1": r1,
-            "disp_r1": disp_r1,
-            "g": g,
-            "arg12": p^(r12),
-            "arg22": arg22,
-            "r2": r2,
-            "disp_r2": disp_r2,
-            "f": f(x),
-            "afact": x-a,
-            "bfact": x-b,
-            "c1fact": x-c,
-            "c2fact": x+c,
-            "pp": power_dict[pp],
-            "qq": power_dict[qq],
-            "rr": power_dict[rr],
+            "simplified_expression": simplified_expression,
+            "expression1": expression1,
+            "expression2": expression2,
+            "expanded_expression": expanded_expression,
         }
 

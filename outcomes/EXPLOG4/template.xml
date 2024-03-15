@@ -2,38 +2,36 @@
 <knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
     <knowl>
         <content>
-            <p>Combine the following into single logarithms.</p>
-            <list>
-            <item><p><m> \ln\left( {{arg11}} \right) 
-                    + \ln\left( {{arg21}} \right) </m></p></item>
-            <item><p><m> \ln\left( {{arg12}} \sqrt{ {{g}} } \right) 
-                - \ln\left( {{arg22}}  \sqrt{ {{g}} } \right) </m></p></item>
-            </list>
-        </content>
-        <outtro>
-            <list>
-            <item><p>The given expression equals <m> {{disp_r1}} \ln( {{p}} )</m>.</p></item>
-            <item><p>The given expression equals <m> {{disp_r2}} \ln( {{p}} )</m>.</p></item>
-            </list>
-        </outtro>
-    </knowl>
-    <knowl>
-        <content>
-            <p>Write the following expression as a sum or difference of logarithms with no exponents or radicals. 
+            <p>Condense the following into single logarithm.
                 <m mode = "display">
-                    \ln\left[ {{f}} \right]
+                    {{expression1}}
                 </m>
             </p>
         </content>
         <outtro>
-            <p><m mode="display">
-                {{pp}} \ln(x)
-                + {{qq}} \ln( {{afact}} )
-                + {{rr}} \ln( {{bfact}} )
-                - \ln( {{c1fact}} )
-                - \ln( {{c2fact}} )
-            </m></p>
+            <p>The given expression equals 
+                <m mode = "display"> 
+                    {{simplified_expression}}
+                </m>
+            </p>
+        </outtro>
+    </knowl>
+    <knowl>
+        <content>
+            <p>Fully expand the following expression. 
+                <m mode = "display">
+                    {{expression2}}
+                </m>
+            </p>
+        </content>
+        <outtro>
+            <p>The given expression equals
+                <m mode="display">
+                    {{expanded_expression}}
+                </m>
+            </p>
         </outtro>
     </knowl>
 </knowl>
+
 
